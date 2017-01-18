@@ -1,6 +1,6 @@
 # Blog settings
 permalink: :title
-
+baseurl: /js-notes
 
 # My variables
 name: JS / ReactJS Notes
