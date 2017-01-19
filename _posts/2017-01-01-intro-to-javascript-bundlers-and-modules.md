@@ -8,7 +8,7 @@ Typically a module would expose a limited interface (set of functions) to the re
 
 In React, individual components can be thought of as modules.
 
-Ideall each component would live in its own file, and whilst it may include various internal helper functions within that file, it would only return the component itself.
+Ideally each component would live in its own file, and whilst it may include various internal helper functions within that file, it would only return the component itself.
 
 Whilst ES6 introduces native modules, browser support is still lacking.
 
