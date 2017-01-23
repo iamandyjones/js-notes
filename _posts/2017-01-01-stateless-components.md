@@ -1,0 +1,11 @@
+---
+layout: post
+---
+
+{% highlight javascript %}
+const Component = function(props){
+
+	return (<h1>{props.title}</h1>)
+
+}
+{% endhighlight %}

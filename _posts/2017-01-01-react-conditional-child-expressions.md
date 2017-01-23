@@ -1,6 +1,7 @@
 ---
 layout: post
 ---
+
 We can use pass conditional js expressions as children within React components to conditionally trigger extra logic.
 
 {% highlight javascript %}
