@@ -25,6 +25,7 @@ class Component extends React.Component {
 
 Therefore any time we define our own custom component methods we need to manually bind "this" to the component ourselves as follows:
 
+{% highlight javascript %}
 class Component extends React.Component {
 
 	constructor(props){
