@@ -32,7 +32,9 @@ function withCommonStuff(WrappedComponent) {
 
     render() {      
       // Pass through any additional (injected) props
-      return <WrappedComponent injectedProp={this.state.some} {...this.props} />;
+      return <WrappedComponent 
+              injectedProp={this.state.some} 
+              {...this.props} />;
     }
   };
 }
@@ -46,13 +48,13 @@ Higher Order Components are pure, they don't modify the input component, nor do 
 
 Note the wrapped component receives all the props of the container, plus any other new props that we pass along. The only communication between the container and wrapped component is via props.
 
-The function that generates the wrapper component is justa  normal function, and we can pass it any number of arguments to make it configurable.
+The function that generates the wrapper component is just a normal function, and we can pass it any number of arguments to make it configurable.
 
 ## HOC's Vs Container Components
 
 Container Components are used to separate responsibility between high level and low level components. Container Components handle things like data subscription and state management, and pass along props to components that manage UI rendering. 
 
-HOC's use containers as part of their implementation, and can be thought of as a special Container components which si parameterised.
+HOC's use containers as part of their implementation, and can be thought of as a special Container components which is parameterised.
 
 ## More
 
