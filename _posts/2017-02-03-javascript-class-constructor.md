@@ -40,4 +40,4 @@ constructor(props){
 
 A function's bind() method allows us to specify what the context of this should be inside that function.
 
-Above is a common javascript pattern where we redefine our function method to itself but bound to "this" (the component). NOw whenever our custom method executes, this will reference the component rather than null.
+Above is a common javascript pattern where we redefine our function method to itself but bound to "this" (the component). Now whenever our custom method executes, this will reference the component rather than null.
