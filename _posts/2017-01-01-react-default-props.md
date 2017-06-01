@@ -24,6 +24,18 @@ module.exports = React.createClass({
 });
 {% endhighlight %}
 
+Or with ES6 classes...
+
+{% highlight javascript %}
+class MyComponent extends React.Component {
+
+    static defaultProps = {
+        value: 500
+    };
+
+};
+{% endhighlight %}
+
 The above will now work regardless of whether a prop is passed into the component...
 
 {% highlight javascript %}
