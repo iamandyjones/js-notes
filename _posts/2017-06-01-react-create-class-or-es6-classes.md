@@ -38,4 +38,4 @@ export default App;
 
 {% endhighlight %}
 
-
+The render method is the only required method of a React component and should return either a single child (a React Element), or a falsy value of null or false. If a React Element is returned, it's important to ntoe that this is a virtual representation of a Dom component, not the actual Dom component itself.
