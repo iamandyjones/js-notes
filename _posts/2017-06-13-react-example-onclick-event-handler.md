@@ -7,7 +7,7 @@ layout: post
 onButtonClick = (evt) => {
 	
 	const btn = evt.target;
-	console.log(`The button ${btn.name} was clicked, the value is: ${btn.value}`);
+	console.log(`Button clicked: ${btn.name} ${btn.value}`);
 	
 }
 
@@ -16,7 +16,12 @@ render(){
 	return (
 
 		<div>
-			<button name="my-button" value="boom!" onClick={this.onButtonClick}>Click Me</button>
+			<button 
+			name="my-button" 
+			value="boom!" 
+			onClick={this.onButtonClick}>
+			Click Me
+			</button>
 		</div>
 
 	)
