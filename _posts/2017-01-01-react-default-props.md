@@ -29,6 +29,18 @@ Or with ES6 classes...
 {% highlight javascript %}
 class MyComponent extends React.Component {
 
+    /* ... */
+
+};
+
+MyComponent.defaultProps = { value: 500 } 
+{% endhighlight %}
+
+Or using experimental class properties syntax (requires a transform, included within create react app)...
+
+{% highlight javascript %}
+class MyComponent extends React.Component {
+
     static defaultProps = {
         value: 500
     };
@@ -36,7 +48,7 @@ class MyComponent extends React.Component {
 };
 {% endhighlight %}
 
-The above will now work regardless of whether a prop is passed into the component...
+The component is now operational regardless of whether a prop is passed in...
 
 {% highlight javascript %}
 <Component /> // Logs 500
