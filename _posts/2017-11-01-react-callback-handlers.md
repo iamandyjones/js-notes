@@ -39,7 +39,7 @@ class MyComponent extends React.Component {
 
 		return (evt) => {
 
-			console.log(name); // Logs Joe Bloggs
+			console.log(name); // Logs Joe Bloggs or John Smith
 
 		}
 
