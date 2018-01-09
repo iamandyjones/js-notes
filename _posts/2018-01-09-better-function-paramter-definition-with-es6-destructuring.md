@@ -6,7 +6,7 @@ It is often more favourable to accept a single object with multiple properties a
 
 We can use ES6 destructuring to avoid repeating this single parameter object whenever we need to extract a value.
 
-##ES5 way...
+## ES5 way...
 
 {% highlight javascript %}
 function myFunc(options){
@@ -19,7 +19,7 @@ function myFunc(options){
 myFunc({name: "Bob", age: "30"});
 {% endhighlight %}
 
-##ES6 way...
+## ES6 way...
 
 {% highlight javascript %}
 function myFunc({name, age}){
