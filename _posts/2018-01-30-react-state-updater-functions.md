@@ -10,9 +10,9 @@ this.setState({toggle: !this.state.toggle});
 
 {% endhighlight %}
 
-HOWEVER, the React docs tell us that this is unreliable because `this.state` may be updated asynchronously and can therefore not be considered reliable for calculating the next state.
+HOWEVER, the React docs tell us that this is unreliable because `this.state` may be updated asynchronously.
 
-Instead, the `setState` can also accept an updater function instead of an object as the first argument. This updater function receives previous state and props as arguments, both of which are guaranteed to be up-to-date.
+Instead, `setState` can also accept an updater function instead of an object as the first argument. This updater function receives previous state and props as arguments, both of which are guaranteed to be up-to-date.
 
 Therefore the previous example is better constructed as:
 
