@@ -20,7 +20,7 @@ layout: post
 - May contain other presentation and/or container components
 - Don't generate DOM markup or have associated styles
 - Pass data and bahviour to other presentation or container components via props
-- Call store actions and make these available to presntation components via callback props
+- Call store actions and make these available to presentation components via callback props
 - Often have state to manage data and behaviour
 
 ## Refs
