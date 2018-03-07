@@ -102,7 +102,7 @@ Passing default values:
 
 {% highlight javascript %}
 
-var { a: 'foo', b: 2 } = { a: 'bar' };
+var { a = 'foo', b = 2 } = { a: 'bar' };
 
 console.log(a); // "bar"
 console.log(b); // 2
