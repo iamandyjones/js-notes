@@ -83,7 +83,7 @@ var a, b;
 
 The round braces are required when using destructuring without assignment as without the object literal on the left is considered a block instead.
 
-The round braces must be preceeded by a semi colon or it may be used to execute a function on the previous line.
+The round braces must be followed by a semi colon or it may be used to execute a function on the previous line.
 
 Assigning to new variable names:
 
